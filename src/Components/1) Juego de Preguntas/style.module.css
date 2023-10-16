@@ -1,0 +1,41 @@
+.fondo {
+  background-image: url("https://acortar.link/5jbzBl");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.h1Preguntas,
+.h2Preguntas {
+  text-align: center;
+  color: rgb(0, 0, 255);
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(250, 85, 9);
+}
+
+.botones button {
+  border-radius: 20px;
+  background-color: rgb(190, 0, 248);
+  padding: 9px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border-style: none;
+}
+
+.botones button:hover {
+  cursor: pointer;
+  background-color: gray;
+}

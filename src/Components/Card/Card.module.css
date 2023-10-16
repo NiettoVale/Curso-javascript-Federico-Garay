@@ -1,0 +1,12 @@
+.contenedorCard {
+  position: relative;
+  width: 350px;
+  height: 450px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
